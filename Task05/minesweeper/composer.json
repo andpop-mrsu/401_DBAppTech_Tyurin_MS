@@ -1,0 +1,15 @@
+{
+    "name": "fhj7438ht/minesweeper",
+    "bin": [
+        "bin/minesweeper.php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "fhj7438ht\\Minesweeper\\": "src/"
+        }
+    },
+    "require": {
+        "wp-cli/php-cli-tools": "0.12.5",
+        "gabordemooij/redbean": "^5.7"
+    }
+}
